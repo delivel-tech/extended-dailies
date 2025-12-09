@@ -1,0 +1,29 @@
+{
+	"geode": "4.10.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "delivel.extended-dailies",
+	"name": "Extended Dailies",
+	"version": "0.0.2-alpha",
+	"developer": "delivel",
+	"description": "",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	},
+	"settings": {
+		"mod-title": {
+			"type": "title",
+			"name": "For moderators"
+		},
+		"mod-password": {
+			"name": "Moderator Password",
+			"type": "string",
+			"default": "",
+			"description": "Put here your password if you're a moderator, otherwise ignore."
+		}
+	}
+}
